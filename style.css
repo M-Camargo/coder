@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+#conteiner {
+
+    width: 1380px;
+    height: 100vh;
+    background-image: url(./fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formularioLabel {
+    background-color: azure;
+    color: aqua;
+}
+
+p {
+    font-size: 1.2rem;
+    font-style: oblique;
+    color: azure;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.icono {
+    display: flex;
+    align-items: flex-start;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+}
+
+button {
+    height: 30px;
+}
